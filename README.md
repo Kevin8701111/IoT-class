@@ -27,7 +27,9 @@ Arduino Nano , 比起Uno板 體積小 , 比起Pro mini 提供的電源較方便 
 
 ## linux環境部屬 & 權限問題
 1 .Arduino IDE https://www.arduino.cc/en/Main/Donate
+
 1.2 .安裝教學 https://www.arduino.cc/en/Guide/Linux
+
 2 .Raspi4 2G 
 - 開機後 請切出terminal (ctrl + alt + T)
 - 設定Taipei , chinese , us鍵盤 都打勾
