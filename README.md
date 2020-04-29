@@ -31,10 +31,15 @@ Arduino Nano , 比起Uno板 體積小 , 比起Pro mini 提供的電源較方便 
 - 熱敏電阻 由於溫度變化而變化, NTC 為負溫度係數
 - 濕度感測器 由2個電極中間帶著濕度介質 當空氣中濕度變化 就會改變存電量 影響電阻的大小 (導電率) 
 ![](https://i.imgur.com/3BgPTeY.jpg)
+- 在google 搜尋dht22 library arduino 找到 https://www.arduinolibraries.info/libraries/dht-sensor-library 並下載最新版
 
 #### 1.5 .實做Arduino sensor AM2302 DHT22
- - 使用 剛剛匯入的 arduino-DHT-master 範例
+ - 使用 剛剛匯入的 arduino-DHT-master 範例 https://www.arduino.cc/en/guide/libraries?setlang=cn
  - 並完成溫濕度感測電路 ![](https://i.imgur.com/TGW4rNE.jpg)
+ (DHT22) - Arduino
+ `DAT - D2`
+ `VCC - 5V`
+ `GND - GND`
 
  - 將資料改成json格式
  - json 格式檢查 http://json.parser.online.fr/
